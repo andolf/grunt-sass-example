@@ -1,5 +1,5 @@
 {
-  "name": "myapp",
+  "name": "grunt-sass-example",
   "version": "0.1.0",
   "scripts": {
     "start": "node app.js"
