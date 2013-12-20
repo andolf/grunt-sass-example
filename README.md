@@ -16,10 +16,10 @@ Don't worry about NPM, when you're installing Node you're getting it included wh
 
 ## Downloading Grunt
 
-Now that we have Node and NPM installed, we can download Grunt. Now all Node projects has it's information about it's dependencies and libraries written in a file known as package.json.  So create a folder called "myapp" and in it create a file named package.json that has the following code written in it.
+Now that we have Node and NPM installed, we can download Grunt. Now all Node projects has it's information about it's dependencies and libraries written in a file known as package.json.  So create a folder and in it create a file named package.json that has the following code written in it.
 
   {
-    "name": "myapp",
+    "name": "grunt-sass-example",
     "version": "0.1.0",
     "scripts": {
       "start": "node app.js"
