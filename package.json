@@ -1,0 +1,16 @@
+{
+  "name": "myapp",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-sass": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-cssmin": "*"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}

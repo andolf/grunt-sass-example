@@ -1,6 +1,3 @@
-Setting up Grunt and Sass/Compass
-=================================
-
 Something that has become more or less a staple horse of mine in new projects is working with [Grunt](http://gruntjs.com/) and [SASS](http://sass-lang.com/). If you don't know about Grunt; it's basically a task runner written in JavaScript that automates a lot of processes for you. It can minify and concatenate JavaScript- and CSS-files and also, which is useful in this case, compile SASS code and more!
 
 Just in case you're new to [Node](http://nodejs.org/) (which Grunt runs on) I'll start at the bottom and move upwards (or downwards in this text). If you already know about Node and its package manager, [NPM](https://npmjs.org/) feel free to skip ahead.
