@@ -51,12 +51,15 @@ following code written in it.
       }
     }
 
-After that, run `npm install` in the terminal. Now NPM will download all the dependencies
-as listed in __package.json__ under devDependencies. It's good practice to keep Grunt
-and it's plugins as developer dependencies since this usually means they won't be
-needed for the project to run but are mostly being used as a tool during development
-and therefor are not necessary to have. Any dependencies that will be needed should be
-listed under "dependencies".
+After that, run the following command in the terminal:
+
+    npm install
+
+Now NPM will download all the dependencies as listed in __package.json__ under
+devDependencies. It's good practice to keep Grunt and it's plugins as developer
+dependencies since this usually means they won't be needed for the project to run
+but are mostly being used as a tool during development and therefor are not necessary
+to have. Any dependencies that will be needed should be listed under "dependencies".
 
 As you've probably noticed (by writing the code above or by typing `npm list` which
 lists all packages downloaded to the project) there's also a few extra plugins such
