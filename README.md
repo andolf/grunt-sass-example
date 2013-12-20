@@ -3,8 +3,8 @@
 Something that has become more or less a staple horse of mine in new projects is
 working with [Grunt](http://gruntjs.com/) and [Sass](http://sass-lang.com/). If
 you don't know about Grunt; it's basically a task runner written in JavaScript that
-automates a lot of processes for you. It can minify and concatenate JavaScript-
-and CSS-files and also, which is useful in this case, compile Sass code and more!
+automates a lot of processes for you. It can minify and concatenate JavaScript
+and CSS files and also, which is useful in this case, compile Sass code and more!
 
 Just in case you're new to [Node](http://nodejs.org/) (which Grunt runs on) I'll
 start at the beginning. If you already know about Node and its package manager,
