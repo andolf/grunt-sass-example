@@ -164,8 +164,8 @@ In it, write:
 As you can see the syntax looks pretty similar to CSS. This is because we used
 .scss extension on the files. Another option is .sass and the difference between
 the two can be found [here](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#syntax).
-Now we're applying the value of the variable $red in _base to the body element.
-Some simple stuff just so we can see the fruits of our labour.
+Now we're applying the value of the variable `$red` in _base.scss to the body
+element. Some simple stuff just so we can see the fruits of our labour.
 
 ## Running Grunt
 
