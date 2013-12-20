@@ -29,8 +29,10 @@ total awesomeness!
 
 Now that we have Node and NPM installed, we can download Grunt. Now all Node projects
 has it's information about it's dependencies and libraries written in a file known as
-package.json.  So create a folder and in it create a file named package.json that has
-the following code written in it.
+package.json. Normally this is created through the command `npm init` (you can try it
+if you want) but for this simple case we'll create our own which is smaller and more to
+the point. So create a folder and in it create a file named package.json that has the
+following code written in it.
 
     {
       "name": "grunt-sass-example",
