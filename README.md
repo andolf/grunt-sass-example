@@ -189,6 +189,12 @@ of. It looks like standard CSS! To add to that, if you write in the terminal:
 the code into new CSS files, overwriting the previous, making it easier to make
 changes, whether small or big.
 
+## That's it!
+
+There's a lot more you can do to this, such as configuring Compass to fit your needs
+(if you for example want to utilize the spriting functions that are available) but
+this will hopefully be something of a starting point where you can advance from.
+
 ## License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
