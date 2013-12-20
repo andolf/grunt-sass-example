@@ -49,11 +49,12 @@ the following code written in it.
       }
     }
 
-After that, run npm install in the terminal. Now NPM will download all the dependencies
+After that, run `npm install` in the terminal. Now NPM will download all the dependencies
 as listed in __package.json__ under devDependencies. It's good practice to keep Grunt
 and it's plugins as developer dependencies since this usually means they won't be
 needed for the project to run but are mostly being used as a tool during development
-and therefor are not necessary to have.
+and therefor are not necessary to have. Any dependencies that will be needed should be
+listed under "dependencies".
 
 As you've probably noticed (by writing the code above or by typing `npm list` which
 lists all packages downloaded to the project) there's also a few extra plugins such
@@ -126,7 +127,7 @@ read by your conventional browser until you compile it to CSS, but the upside is
 it's very flexible and powerful and also very comfortable to work with, especially in
 large projects where you can keep all your stuff clean.
 
-Now we since specified in our Gruntfile that our Sass files are located in a directory
+Now, since we specified in our Gruntfile that our Sass files are located in a directory
 called "sass", let's create just that, in the root of our project. Next, since we also
 specified in our Gruntfile that we wanted [Compass](http://compass-style.org/), a CSS
 framework written in Sass, we follow Compass practices by creating a file called
