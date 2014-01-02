@@ -29,7 +29,7 @@ total awesomeness!
 
 Now that we have Node and NPM installed, we can download Grunt. Now all Node projects
 has it's information about it's dependencies and libraries written in a file known as
-package.json. Normally this is created through the command `npm init` (you can try it
+__package.json__. Normally this is created through the command `npm init` (you can try it
 if you want) but for this simple case we'll create our own which is smaller and more to
 the point. So create a folder and in it create a file named package.json that has the
 following code written in it.
@@ -55,7 +55,7 @@ After that, run the following command in the terminal:
 
     npm install
 
-Now NPM will download all the dependencies as listed in __package.json__ under
+Now NPM will download all the dependencies as listed in package.json under
 devDependencies. It's good practice to keep Grunt and it's plugins as developer
 dependencies since this usually means they won't be needed for the project to run
 but are mostly being used as a tool during development and therefor are not necessary
