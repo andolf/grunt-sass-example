@@ -147,12 +147,14 @@ Now, that line imports some files, but we don't have anything like that! No worr
 Again, following Compass, create a new file, now named _base.scss. This is our base
 file which keeps all our variables and properties that are used in the rest of our
 Sass files to keep things clean and consistent. Because of these conventions, the
-underscore is ignored on import but signifies in the structure that it doesn't have
-any actual layout, only variables and/or mixins.
+underscore is ignored on import, as it signifies it's a partial.
 
 Testing it out, write in **_base.scss**:
 
     $red: #f00;
+
+    @import "compass"; // import compass basics
+    @import "compass/reset"; // import compass reset
 
 Next, create a file called __layout.scss__. This is our starting point for styling.
 In it, write:
